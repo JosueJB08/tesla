@@ -13,6 +13,19 @@ body{
     overflow: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+.section {
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
 header div img {
     width: 120px;
     height: 15px;
@@ -141,7 +154,7 @@ header a{
 
 .main-1 div img {
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     object-fit: cover;
     object-position: center;
 }
